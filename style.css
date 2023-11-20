@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #800000; /* Vermelho escuro */
+    color: #fff; /* Texto branco */
+}
+
+.cabecalho {
+    background-color: rgb(0, 0, 0);
+    color: #fff; /* Alterado para branco */
+    padding: 20px; /* Aumentei o padding para mais espaçamento interno */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px; /* Adicionei uma largura fixa para a logo */
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Alterado para branco */
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: justify;
+}
+
+.background-red-black {
+    background-color: #800000; /* Vermelho escuro */
+    color: #fff; /* Texto branco */
+}
+
+.subtitle {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+.author {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.footer {
+    background-color: #800000; /* Vermelho escuro */
+    color: #fff; /* Texto branco */
+    text-align: center;
+    padding: 20px;
+}
+
+.footer img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+.footer p {
+    margin: 5px;
+    font-weight: bold;
+}
+
